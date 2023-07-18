@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90vw;
+    height: 50rem;
+    border: 5px solid blue;
+    background-color: lightskyblue;
+    color: black;
+    padding: 3rem;
+}
+.apj_kalam_img{
+    height: 10rem;
+    width: 5rem;
+}
+.apj_kalam_img img{
+    border: 5px solid rgb(8, 150, 206);
+    border-radius: 25rem;
+}
+.apj_kalam_name{
+    margin-left: 30rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#063c8e,#051923,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.apj_kalam_details{
+    position:relative;
+    padding-top:5rem ;
+}
+.apj_kalam_details h1{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+    background: -webkit-linear-gradient(#eee,#4d2828);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
